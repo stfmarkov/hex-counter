@@ -1,0 +1,18 @@
+.nav{
+    background: #20232a;
+    margin-bottom: 50px;
+    &__list{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+    }
+    &__item{
+        line-height: 50px;
+        padding: 0 15px;
+        font-size: 16px;
+        display: inline-block;
+        &:hover{
+            color: #61dafb;
+        }
+    }
+}

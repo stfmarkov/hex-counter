@@ -1,0 +1,28 @@
+.counter{
+    width: 150px;
+    &__count{
+        display: block;
+        font-size: 45px;
+        color: #20232a;
+        text-align: center;
+        font-weight: 700;
+    }
+    &__btn{
+        width: 70px;
+        border: 2px solid #20232a;
+        background:none;
+        color: #20232a;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-radius: 10px;
+        height: 50px;
+        font-weight: 700;
+        cursor: pointer;
+        &:first-of-type{
+            margin-right: 10px;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}
